@@ -94,7 +94,7 @@ select sex,
 from symptoms
 group by 1 with rollup;
 
--- headache and sore_throat,shortness_of_breath are the less symptoms for corona negative. 
+-- headache and sore_throat,shortness_of_breath are the less common symptoms for corona negative. 
 
 -- 8. What are the most common symptoms among COVID positive males whose known contact was abroad?
 
